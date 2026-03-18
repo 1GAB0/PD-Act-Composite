@@ -9,4 +9,4 @@ Patron de diseño Composite, aplicado a venta de maquinas armadas
 
 # Conclusión
 
-## Referencias 
+### Referencias 
