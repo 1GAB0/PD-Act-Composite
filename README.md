@@ -14,6 +14,11 @@ Patron de diseño Composite, aplicado a venta de maquinas armadas
 
 
 ## [Codigo](Program.cs)
+<img width="330" height="122" alt="image" src="https://github.com/user-attachments/assets/41279c4c-22fd-48e2-af8c-56fccfa46585" />
+<img width="289" height="448" alt="image" src="https://github.com/user-attachments/assets/fea91e3b-c81e-4322-a8a8-1510a62f6f13" />
+
+
+
 
 ## UML
 <img width="1239" height="509" alt="UmlComporite" src="https://github.com/user-attachments/assets/2fe705fd-906a-4d9e-9ed7-1e4e94f83987" />
