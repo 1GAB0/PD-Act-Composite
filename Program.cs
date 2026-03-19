@@ -178,7 +178,7 @@ namespace CompositePC
             if (opc == "1") {
                 pc.AgregarHijo(opcion1);
             }
-            if (opc == "2") {
+            else if (opc == "2") {
                 pc.AgregarHijo(opcion2);
             }
             else 
@@ -195,6 +195,7 @@ namespace CompositePC
             ElegirOpcion(pc, "GPU", new Pieza("NVIDIA RTX 4090 24GB", 1800), new Pieza("AMD Radeon RX 7900 XTX 24GB", 1000));
             ElegirOpcion(pc, "SSD", new Pieza("4TB NVMe Gen4 Samsung 990 Pro", 350), new Pieza("2TB NVMe Gen4 WD Black", 180));
             ElegirOpcion(pc, "Motherboard", new Pieza("ASUS ROG Maximus Z790", 600), new Pieza("Gigabyte Z790 AORUS Elite", 300));
+            ElegirOpcion(pc, "Fuente de Poder", new Pieza("Corsair RM1000x 1000W 80+ Gold", 180), new Pieza("Seasonic Focus GX-1000 1000W 80+ Gold", 170));
             ElegirOpcion(pc, "Case", new Pieza("Lian Li O11 Dynamic EVO", 180), new Pieza("Corsair 5000D Airflow", 160));
             ElegirOpcion(pc, "Monitor", new Pieza("OLED 4K 144Hz ASUS ROG", 1000), new Pieza("Ultrawide 1440p Alienware", 900));
             ElegirOpcion(pc, "Teclado", new Pieza("Logitech G915 TKL Custom", 200), new Pieza("Razer Huntsman V2", 180));
@@ -208,6 +209,7 @@ namespace CompositePC
             ElegirOpcion(pc, "GPU", new Pieza("NVIDIA RTX 4070 12GB", 600), new Pieza("AMD Radeon RX 7800 XT 16GB", 500));
             ElegirOpcion(pc, "SSD", new Pieza("1TB NVMe Gen4 Kingston", 70), new Pieza("500GB NVMe Gen4 WD Blue", 45));
             ElegirOpcion(pc, "Motherboard", new Pieza("MSI B760 Tomahawk", 180), new Pieza("ASUS TUF Gaming B760-PLUS", 160));
+            ElegirOpcion(pc, "Fuente de Poder", new Pieza("Corsair RM750e 750W 80+ Gold", 100), new Pieza("EVGA 750 B5 750W 80+ Bronze", 85));
             ElegirOpcion(pc, "Case", new Pieza("NZXT H510 Flow", 90), new Pieza("Phanteks Eclipse P400A", 95));
             ElegirOpcion(pc, "Monitor", new Pieza("Monitor IPS 1440p 144Hz", 300), new Pieza("Monitor 1080p 240Hz", 250));
             ElegirOpcion(pc, "Teclado", new Pieza("HyperX Alloy Origins", 100), new Pieza("Keychron C1 Mecánico", 80));
@@ -221,6 +223,7 @@ namespace CompositePC
             ElegirOpcion(pc, "GPU", new Pieza("NVIDIA GTX 1650 4GB", 150), new Pieza("AMD Radeon RX 6600 8GB", 200));
             ElegirOpcion(pc, "SSD", new Pieza("500GB SSD SATA Kingston", 35), new Pieza("256GB NVMe Adata", 25));
             ElegirOpcion(pc, "Motherboard", new Pieza("Gigabyte B660M DS3H", 100), new Pieza("ASUS Prime H610M", 80));
+            ElegirOpcion(pc, "Fuente de Poder", new Pieza("EVGA 500 W1 500W 80+ White", 40), new Pieza("Thermaltake Smart 500W 80+ White", 35));
             ElegirOpcion(pc, "Case", new Pieza("Thermaltake V200", 50), new Pieza("Aerocool Cylon", 45));
             ElegirOpcion(pc, "Monitor", new Pieza("Monitor 1080p 75Hz", 100), new Pieza("Monitor 1080p 60Hz", 80));
             ElegirOpcion(pc, "Teclado", new Pieza("Redragon Kumara Mecánico", 35), new Pieza("Teclado Membrana Logitech", 15));
@@ -228,5 +231,4 @@ namespace CompositePC
         }
     }
 }
-
-//unGAB0 MOD
+// unGAB0 MOD
