@@ -36,6 +36,10 @@ Patron de diseño Composite, aplicado a venta de maquinas armadas
 
 
 # Conclusión
+Para esta practica podemos observar como el patron nos ayuda a resolver sobre todo problemas donde se indentifica claramente una jerarquia,
+ademas entiendo como al ser objetos tratados como individuales podriamos en este caso seguir agregando componentes a alguna rama y no se verian
+afectadas las otras ramas, y esto con la misma interfaz simple de menu. 
+Otra curiosidad es que el calculo del precio se hace al recorrer el arbol automaticamente entre sus ramas/hijos y no con un metodo que vaya sumando y calculando.
 
 ### Referencias 
 https://refactoring.guru/es/design-patterns/composite
